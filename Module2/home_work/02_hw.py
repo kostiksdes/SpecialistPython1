@@ -8,3 +8,14 @@
 # Например, 1 корова, 2 коровы, 5 коров, 125 коров.
 
 # TODO: your code here
+
+n = int(input("На лугу пасутся: "))
+
+if (n >= 5 <= 20) and not (n % 10 == 1) or (n % 10 == 0) and not (n % 10 == 1) and (n % 10 >= 5 or n % 10 >= 9) and not (n % 10 == 1):
+    print(n, "коров")
+
+if n % 10 == 1:
+    print(n, "коровa")
+
+if (n % 10 >= 2) and (n % 10 <= 4) and not (n == 12, 13, 14):
+    print(n, "коровы")
