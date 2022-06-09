@@ -8,3 +8,11 @@
 year = int(input("Год: "))
 
 # TODO: your code here
+
+year = int(input("Год: "))
+
+if (year >= 4 <= 1600) and (year % 4 == 0) and (year >= 1600) and (year % 400 == 0):
+    print("Высокосный")
+
+else:
+    print("Не высокосный")
