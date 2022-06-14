@@ -38,4 +38,10 @@ n = 12
 ```python
 # TODO: you code here...
 ```
+n = 12      
+cost = 9.99
 
+counter = 0  
+while counter <= n:
+    print(counter, counter * cost)
+    counter += 1 
