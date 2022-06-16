@@ -6,3 +6,14 @@ import random
 numbers = []
 # print(random.randint(10, 20))  # раскомментируйте, чтобы посмотреть работу функции randint
 # TODO: your code here
+import random
+
+n = 17
+numbers = []
+
+for numb in range(n):
+    numb = random.randint(-100 , 100)
+    numbers.append(numb)
+
+
+print(numbers)
